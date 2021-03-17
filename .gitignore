@@ -1,13 +1,13 @@
   
 *.DS_Store
-/[Ll]ibrary/
+[Ll]ibrary/
 # ignore all libraries
 [Ll]ibrary/
-/[Tt]emp/
-/[Oo]bj/
-/[Bb]uild/
-/[Bb]uilds/
-/Assets/AssetStoreTools*
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+Assets/AssetStoreTools*
 
 # Visual Studio cache directory
 /.vs/
