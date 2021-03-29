@@ -190,6 +190,49 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &550115409
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 550115411}
+  - component: {fileID: 550115410}
+  m_Layer: 0
+  m_Name: manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &550115410
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 550115409}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb90e3dfefe62244db433916a308c9bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &550115411
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 550115409}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.311105, y: 2.6635199, z: -2.1101675}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &581104436
 GameObject:
   m_ObjectHideFlags: 0
@@ -203,6 +246,7 @@ GameObject:
   - component: {fileID: 581104437}
   - component: {fileID: 581104441}
   - component: {fileID: 581104440}
+  - component: {fileID: 581104442}
   m_Layer: 0
   m_Name: Light
   m_TagString: Untagged
@@ -326,6 +370,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &581104442
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 581104436}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed459911be478604aa3cb9d41a04df23, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &700041781
 GameObject:
   m_ObjectHideFlags: 0
@@ -1791,7 +1847,6 @@ GameObject:
   - component: {fileID: 1428908067}
   - component: {fileID: 1428908064}
   - component: {fileID: 1428908069}
-  - component: {fileID: 1428908070}
   m_Layer: 0
   m_Name: Luna
   m_TagString: Untagged
@@ -1950,41 +2005,11 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1428908062}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 73238a8de1d40ed4da0e5e47f8904f5f, type: 3}
+  m_Script: {fileID: 11500000, guid: ae74d75ac4d4c9845bac172a3fcc3958, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_JumpForce: 700
-  m_CrouchSpeed: 0.36
-  m_MovementSmoothing: 0.05
-  m_AirControl: 0
-  m_WhatIsGround:
-    serializedVersion: 2
-    m_Bits: 1
-  m_GroundCheck: {fileID: 1021233486}
-  m_CeilingCheck: {fileID: 1602644747}
-  m_CrouchDisableCollider: {fileID: 0}
-  OnLandEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  OnCrouchEvent:
-    m_PersistentCalls:
-      m_Calls: []
---- !u!114 &1428908070
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1428908062}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 69dfdd2164550f7488006dc6d918f62d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  controller: {fileID: 1428908069}
-  runSpeed: 40
 --- !u!1 &1602644746
 GameObject:
   m_ObjectHideFlags: 0
