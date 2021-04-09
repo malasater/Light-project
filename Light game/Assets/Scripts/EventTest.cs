@@ -24,6 +24,7 @@ public class EventTest : MonoBehaviour
     void someListener()
     {
         Debug.Log("hi");
+        //EventManager.StopListening("test", someListener);
     }
         
 }

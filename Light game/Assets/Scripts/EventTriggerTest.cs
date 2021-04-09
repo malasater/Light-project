@@ -6,11 +6,16 @@ public class EventTriggerTest : MonoBehaviour
     public float mindist = 15.0f;
     public GameObject monster;
 
-    void Update()
+    /* void Update()
+     {
+         if (Vector3.Distance(transform.position, monster.transform.position) <= mindist)
+          {
+              EventManager.TriggerEvent("test");
+          }
+    }*/
+    void OnTriggerEnter2D(Collider2D col)
     {
-       if (Vector3.Distance(transform.position, monster.transform.position) <= mindist)
-        {
-            EventManager.TriggerEvent("test");
-        }
+        EventManager.TriggerEvent("test");
     }
+
 }
