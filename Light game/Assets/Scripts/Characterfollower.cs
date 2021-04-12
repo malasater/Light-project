@@ -23,6 +23,10 @@ public class Characterfollower : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (character == null)
+        {
+            Destroy(gameObject);
+        }
         if (transform.position == (character.transform.position + leftoffset))
         {
             leftflag = false;
