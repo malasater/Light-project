@@ -13,7 +13,7 @@ public class EventTest : MonoBehaviour
     {
         EventManager.StartListening("test", someListener);
 
-        EventManager.StartListening("disable", turnOff);
+        EventManager.StartListening("Lightdisable", turnOff);
     }
 
     void OnDisable()
@@ -30,15 +30,15 @@ public class EventTest : MonoBehaviour
     void turnOff()
     {
         gameObject.GetComponent<SpriteRenderer>().enabled = false;
-        EventManager.StartListening("enable", turnOn);
-        EventManager.StopListening("disable", turnOff);
+        EventManager.StartListening("Lightenable", turnOn);
+        EventManager.StopListening("Lightdisable", turnOff);
 
     }
     void turnOn()
     {
         gameObject.GetComponent<SpriteRenderer>().enabled = true;
-        EventManager.StartListening("disable", turnOff);
-        EventManager.StopListening("enable", turnOn);
+        EventManager.StartListening("Lightdisable", turnOff);
+        EventManager.StopListening("Lightenable", turnOn);
     }
         
 }

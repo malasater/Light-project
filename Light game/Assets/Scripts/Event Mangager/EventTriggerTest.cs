@@ -18,11 +18,11 @@ public class EventTriggerTest : MonoBehaviour
         EventManager.TriggerEvent("test");
         if (col.gameObject.CompareTag("Light off"))
         {
-            EventManager.TriggerEvent("disable");
+            EventManager.TriggerEvent("Lightdisable");
         }
         if (col.gameObject.CompareTag("Light on"))
         {
-            EventManager.TriggerEvent("enable");
+            EventManager.TriggerEvent("Lightenable");
         }
     }
 

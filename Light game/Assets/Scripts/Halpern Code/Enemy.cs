@@ -48,7 +48,7 @@ public class Enemy : Character
     void OnCollisionEnter2D(Collision2D collision)
     {
         // Because only enemies can only hurt the player
-        if(collision.gameObject.CompareTag("Player"))
+        if (collision.gameObject.CompareTag("Player"))
         {
             Player player = collision.gameObject.GetComponent<Player>();
 
@@ -63,6 +63,28 @@ public class Enemy : Character
     void OnCollisionExit2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Player"))
+        {
+            if (damageCoroutine != null)
+            {
+                StopCoroutine(damageCoroutine);
+                damageCoroutine = null;
+            }
+        }
+    }
+    void OnTriggerEnter2D(Collider2D col)
+    {
+        if (col.gameObject.CompareTag("sword"))
+        {
+            Enemy enemy = gameObject.GetComponent<Enemy>();
+            if (damageCoroutine == null)
+            {
+                damageCoroutine = StartCoroutine(enemy.DamageCharacter(damageStrength, 1.0f));
+            }
+        }
+    }
+    void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("sword"))
         {
             if (damageCoroutine != null)
             {
