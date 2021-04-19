@@ -20,12 +20,16 @@ public class Sword : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             sword.enabled = true;
+            transform.Translate(0.5f, -0.9f, 0.0f);
             transform.Rotate(0.0f, 0.0f, -60.0f);
+            
         }
         if (Input.GetKeyUp(KeyCode.Space))
         {
             sword.enabled = false;
+            
             transform.Rotate(0.0f, 0.0f, 60.0f);
+            transform.Translate(-0.5f, 0.9f, 0.0f);
         }
     }
     void swordOff()

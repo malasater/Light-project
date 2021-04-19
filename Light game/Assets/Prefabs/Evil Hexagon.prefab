@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 8187019353702586980}
   - component: {fileID: 8187019353702586970}
   - component: {fileID: 8187019353702586971}
+  - component: {fileID: 715941666}
   m_Layer: 0
   m_Name: Evil Hexagon
   m_TagString: Enemy
@@ -138,3 +139,17 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.49999997
+--- !u!114 &715941666
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8187019353702586983}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b4e8db41bbc8cf458348d33947b385c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dist: 1
+  speed: 1

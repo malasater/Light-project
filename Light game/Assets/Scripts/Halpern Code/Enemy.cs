@@ -31,6 +31,7 @@ public class Enemy : Character
             if (hitPoints <= float.Epsilon)
             {
                 KillCharacter();
+                EventManager.TriggerEvent("Lightenable");
                 break;
             }
 
