@@ -25,5 +25,14 @@ public class EventTriggerTest : MonoBehaviour
             EventManager.TriggerEvent("Lightenable");
         }
     }
+   /** void OnTriggerExit2D(Collider2D col)
+    {
+        if (col.gameObject.CompareTag("Light off"))
+        {
+            EventManager.TriggerEvent("Lightenable");
+        }
+
+    }**/
+
 
 }
