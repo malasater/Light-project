@@ -77,6 +77,8 @@ public class Enemy : Character
         if (col.gameObject.CompareTag("sword"))
         {
             Enemy enemy = gameObject.GetComponent<Enemy>();
+            gameObject.GetComponent <Pacer>().enabled = false;
+
             if (damageCoroutine == null)
             {
                 damageCoroutine = StartCoroutine(enemy.DamageCharacter(damageStrength, 1.0f));

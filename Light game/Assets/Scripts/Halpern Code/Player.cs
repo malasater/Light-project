@@ -6,7 +6,7 @@ public class Player : Character
     //public Inventory inventoryPrefab;
     //Inventory inventory;
 
-    public int hitPoints;
+    public float hitPoints;
 
     //public HealthBar healthBarPrefab;
     //HealthBar healthBar;
@@ -16,35 +16,49 @@ public class Player : Character
         ResetCharacter();
     }
 
-   /**void OnTriggerEnter2D(Collider2D collision)
+    /**void OnTriggerEnter2D(Collider2D collision)
+     {
+         if (collision.gameObject.CompareTag("CanBePickedUp"))
+         {
+             Item hitObject = collision.gameObject.GetComponent<Consumable>().item;
+
+             if (hitObject != null)
+             {
+                 bool shouldDisappear = false;
+
+                 switch (hitObject.itemType)
+                 {
+                     case Item.ItemType.COIN:
+                         shouldDisappear = inventory.AddItem(hitObject);
+                         break;
+                     case Item.ItemType.HEALTH:
+                         shouldDisappear = AdjustHitPoints(hitObject.quantity);
+                         break;
+                     default:
+                         break;
+                 }
+
+                 if (shouldDisappear)
+                 {
+                     collision.gameObject.SetActive(false);
+                 }
+             }
+         }
+     }**/
+    void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("CanBePickedUp"))
+        if (collision.gameObject.CompareTag("Health Token"))
         {
-            Item hitObject = collision.gameObject.GetComponent<Consumable>().item;
-
-            if (hitObject != null)
+            if (hitPoints < maxHitPoints)
             {
-                bool shouldDisappear = false;
+                collision.gameObject.SetActive(false);
+                hitPoints += 1.0f;
 
-                switch (hitObject.itemType)
-                {
-                    case Item.ItemType.COIN:
-                        shouldDisappear = inventory.AddItem(hitObject);
-                        break;
-                    case Item.ItemType.HEALTH:
-                        shouldDisappear = AdjustHitPoints(hitObject.quantity);
-                        break;
-                    default:
-                        break;
-                }
-
-                if (shouldDisappear)
-                {
-                    collision.gameObject.SetActive(false);
-                }
             }
+
+
         }
-    }**/
+    }
 
     public bool AdjustHitPoints(int amount)
     {
