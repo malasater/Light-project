@@ -2576,6 +2576,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1007831232465659984, guid: 748fd8c137ddda043bbddc6653622c2e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 1007831232465659984, guid: 748fd8c137ddda043bbddc6653622c2e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.51
+      objectReference: {fileID: 0}
     - target: {fileID: 1599587701419933524, guid: 748fd8c137ddda043bbddc6653622c2e, type: 3}
       propertyPath: m_Name
       value: Luna
@@ -2632,6 +2640,14 @@ PrefabInstance:
       propertyPath: monster
       value: 
       objectReference: {fileID: 297807963}
+    - target: {fileID: 1599587702170172603, guid: 748fd8c137ddda043bbddc6653622c2e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.21
+      objectReference: {fileID: 0}
+    - target: {fileID: 1599587702170172603, guid: 748fd8c137ddda043bbddc6653622c2e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.44
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 748fd8c137ddda043bbddc6653622c2e, type: 3}
 --- !u!1001 &7280219360753138224
@@ -2704,6 +2720,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 715941666, guid: 5fe907ac3db23fc41b0df476eb0b8d6e, type: 3}
       propertyPath: speed
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8187019353702586980, guid: 5fe907ac3db23fc41b0df476eb0b8d6e, type: 3}
+      propertyPath: swordDamage
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8187019353702586980, guid: 5fe907ac3db23fc41b0df476eb0b8d6e, type: 3}
+      propertyPath: damageStrength
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8187019353702586981, guid: 5fe907ac3db23fc41b0df476eb0b8d6e, type: 3}

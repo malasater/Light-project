@@ -36,6 +36,7 @@ public class PlayerPlatformerController : PhysicsObject {
         {
             if(spriteRenderer.flipX == true)
             {
+                EventManager.TriggerEvent("flipswordright");
                 spriteRenderer.flipX = false;
             }
         } 
@@ -43,6 +44,7 @@ public class PlayerPlatformerController : PhysicsObject {
         {
             if(spriteRenderer.flipX == false)
             {
+                EventManager.TriggerEvent("flipswordleft");
                 spriteRenderer.flipX = true;
             }
         }

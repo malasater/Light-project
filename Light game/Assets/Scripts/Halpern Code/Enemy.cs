@@ -5,6 +5,8 @@ public class Enemy : Character
 {
     public int damageStrength;
 
+    public int swordDamage;
+
     Coroutine damageCoroutine;
 
     float hitPoints;
@@ -81,7 +83,7 @@ public class Enemy : Character
 
             if (damageCoroutine == null)
             {
-                damageCoroutine = StartCoroutine(enemy.DamageCharacter(damageStrength, 1.0f));
+                damageCoroutine = StartCoroutine(enemy.DamageCharacter(swordDamage, 1.0f));
             }
         }
     }

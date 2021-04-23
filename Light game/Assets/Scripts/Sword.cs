@@ -5,46 +5,83 @@ using UnityEngine;
 public class Sword : MonoBehaviour
 {
     public Collider2D sword;
+    public SpriteRenderer swordsprite;
+    private bool rightflag;
+
     // Start is called before the first frame update
     void Start()
     {
-        gameObject.GetComponent<SpriteRenderer>().enabled = false;
-        sword = gameObject.GetComponent<Collider2D>();
+        swordsprite = gameObject.GetComponentInChildren<SpriteRenderer>();
+        swordsprite.enabled = false;
+        sword = gameObject.GetComponentInChildren<Collider2D>();
         EventManager.StartListening("Lightdisable", swordOn);
+        EventManager.StartListening("flipswordright", flipSwordRight);
+        EventManager.StartListening("flipswordleft", flipSwordLeft);
         sword.enabled = false;
+        rightflag = true;
     }
 
     // Update is called once per frame
     void Update()
     {
+        
         if (Input.GetKeyDown(KeyCode.Space))
         {
             sword.enabled = true;
-            transform.Translate(0.5f, -0.9f, 0.0f);
-            transform.Rotate(0.0f, 0.0f, -60.0f);
-            
+            //transform.Translate(0.5f, -0.9f, 0.0f);
+            if (rightflag)
+            {
+                transform.Rotate(0.0f, 0.0f, -60.0f);
+            }
+            if (!rightflag)
+            {
+                transform.Rotate(0.0f, 0.0f, 60.0f);
+            }
+
+
         }
         if (Input.GetKeyUp(KeyCode.Space))
         {
             sword.enabled = false;
-            
-            transform.Rotate(0.0f, 0.0f, 60.0f);
-            transform.Translate(-0.5f, 0.9f, 0.0f);
+            if (rightflag)
+            {
+                transform.Rotate(0.0f, 0.0f, 60.0f);
+            }
+            if (!rightflag)
+            {
+                transform.Rotate(0.0f, 0.0f, -60.0f);
+            }
+            //transform.Rotate(0.0f, 0.0f, 60.0f);
+            //transform.Translate(-0.5f, 0.9f, 0.0f);
         }
     }
     void swordOff()
     {
-        gameObject.GetComponent<SpriteRenderer>().enabled = false;
+        swordsprite.enabled = false;
         EventManager.StartListening("Lightdisable", swordOn);
         EventManager.StopListening("Lightenable", swordOff);
 
     }
     void swordOn()
     {
-        gameObject.GetComponent<SpriteRenderer>().enabled = true;
+        swordsprite.enabled = true;
         EventManager.StartListening("Lightenable", swordOff);
         EventManager.StopListening("Lightdisable", swordOn);
     }
+    void flipSwordRight()
+    {
+        rightflag = true;
+        transform.Rotate(0.0f, 0.0f, -60.0f);
+        //transform.Translate(1.1f, 0.0f, 0.0f);
+    }
+    void flipSwordLeft()
+    {
+        rightflag = false;
+        //transform.Translate(-1.1f, 0.0f, 0.0f);
+        transform.Rotate(0.0f, 0.0f, 60.0f);
+        
+    }
+
 
 }
 

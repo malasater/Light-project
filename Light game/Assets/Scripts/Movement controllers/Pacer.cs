@@ -22,22 +22,31 @@ public class Pacer : MonoBehaviour
         {
 
             //transform.position.Set(transform.position.x + (speed * Time.deltaTime), transform.position.y, transform.position.z);
-            transform.Translate(Vector3.right *Time.deltaTime*speed);
+            transform.Translate(Vector3.right * Time.deltaTime * speed);
             if (transform.position.x - startPoint.x >= dist)
             {
-                
+
                 eastflag = false;
             }
         }
         if (eastflag == false)
         {
             //transform.position.Set(transform.position.x - speed * Time.deltaTime, transform.position.y, transform.position.z);
-            transform.Translate(Vector3.left* Time.deltaTime * speed);
+            transform.Translate(Vector3.left * Time.deltaTime * speed);
             if (transform.position.x <= startPoint.x)
             {
                 eastflag = true;
             }
 
         }
+    }
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            eastflag = !eastflag;
+        }
+
+
     }
 }

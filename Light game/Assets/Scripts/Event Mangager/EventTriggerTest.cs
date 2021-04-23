@@ -19,10 +19,12 @@ public class EventTriggerTest : MonoBehaviour
         if (col.gameObject.CompareTag("Light off"))
         {
             EventManager.TriggerEvent("Lightdisable");
+            col.gameObject.SetActive(false);
         }
         if (col.gameObject.CompareTag("Light on"))
         {
             EventManager.TriggerEvent("Lightenable");
+            col.gameObject.SetActive(false);
         }
     }
    /** void OnTriggerExit2D(Collider2D col)
