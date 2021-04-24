@@ -9,10 +9,12 @@ public class Characterfollower : MonoBehaviour
     private Vector3 rightoffset;
     private Vector3 leftoffset;
     private bool leftflag = false;
-    public float speed = 1.0f;
+    public float followspeed = 1.0f;
+    public float hoverspeed = 1.0f;
     private Vector3 target;
     private float initDist;
     private Vector3 newpos;
+    private float speed;
     void Start()
     {
         leftoffset = transform.position - character.transform.position;
@@ -23,6 +25,14 @@ public class Characterfollower : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (Vector3.Distance(transform.position, character.transform.position) > initDist)
+        {
+            speed = followspeed;
+        }
+        if (Vector3.Distance(transform.position, character.transform.position) <= initDist)
+        {
+            speed = hoverspeed;
+        }
         if (character == null)
         {
             Destroy(gameObject);

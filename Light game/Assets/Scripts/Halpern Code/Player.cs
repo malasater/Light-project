@@ -51,8 +51,9 @@ public class Player : Character
         {
             if (hitPoints < maxHitPoints)
             {
+                HealthToken token = collision.gameObject.GetComponent<HealthToken>();
                 collision.gameObject.SetActive(false);
-                hitPoints += 1.0f;
+                hitPoints += token.hp;
 
             }
 

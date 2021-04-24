@@ -15,8 +15,8 @@ public class Sword : MonoBehaviour
         swordsprite.enabled = false;
         sword = gameObject.GetComponentInChildren<Collider2D>();
         EventManager.StartListening("Lightdisable", swordOn);
-        EventManager.StartListening("flipswordright", flipSwordRight);
-        EventManager.StartListening("flipswordleft", flipSwordLeft);
+        EventManager.StartListening("flipsword", flipSword);
+        //EventManager.StartListening("flipswordleft", flipSwordLeft);
         sword.enabled = false;
         rightflag = true;
     }
@@ -68,11 +68,12 @@ public class Sword : MonoBehaviour
         EventManager.StartListening("Lightenable", swordOff);
         EventManager.StopListening("Lightdisable", swordOn);
     }
-    void flipSwordRight()
+    void flipSword()
     {
-        rightflag = true;
-        transform.Rotate(0.0f, 0.0f, -60.0f);
-        //transform.Translate(1.1f, 0.0f, 0.0f);
+        Vector3 temp = transform.localScale;
+        temp.x = temp.x * -1.0f;
+        transform.localScale = temp;
+        rightflag = !rightflag;
     }
     void flipSwordLeft()
     {

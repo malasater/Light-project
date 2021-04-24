@@ -8,12 +8,14 @@ public class PlayerPlatformerController : PhysicsObject {
     public float jumpTakeOffSpeed = 7;
 
     private SpriteRenderer spriteRenderer;
+    private SpriteRenderer children;
     //private Animator animator;
 
     // Use this for initialization
     void Awake () 
     {
         spriteRenderer = GetComponent<SpriteRenderer> (); 
+        children = gameObject.GetComponentInChildren<SpriteRenderer>();
         //animator = GetComponent<Animator> ();
     }
 
@@ -36,16 +38,18 @@ public class PlayerPlatformerController : PhysicsObject {
         {
             if(spriteRenderer.flipX == true)
             {
-                EventManager.TriggerEvent("flipswordright");
+                EventManager.TriggerEvent("flipsword");
                 spriteRenderer.flipX = false;
+                children.flipX = false;
             }
         } 
         else if (move.x < -0.01f)
         {
             if(spriteRenderer.flipX == false)
             {
-                EventManager.TriggerEvent("flipswordleft");
+                EventManager.TriggerEvent("flipsword");
                 spriteRenderer.flipX = true;
+                children.flipX = true;
             }
         }
 

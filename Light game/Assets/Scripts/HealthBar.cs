@@ -12,7 +12,7 @@ public class HealthBar : MonoBehaviour
 
     public Image meterImage;
 
-    public Text hpText;
+    //public Text hpText;
 
     float maxHitPoints;
 

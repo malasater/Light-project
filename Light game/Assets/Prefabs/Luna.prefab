@@ -306,7 +306,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1599587702170172602}
   m_LocalRotation: {x: -0, y: -0, z: -0.28213534, w: 0.95937467}
-  m_LocalPosition: {x: 0.82, y: 1.0199999, z: 0}
+  m_LocalPosition: {x: 1.21, y: 1.44, z: 0}
   m_LocalScale: {x: 0.23193616, y: 0.20132655, z: 1.2135}
   m_Children: []
   m_Father: {fileID: 1007831232465659984}
@@ -486,7 +486,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7237773916217792969}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.45, y: -0.13, z: 0}
+  m_LocalPosition: {x: 0.01, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1599587702170172603}
@@ -506,3 +506,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sword: {fileID: 0}
+  swordsprite: {fileID: 0}

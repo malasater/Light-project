@@ -101,7 +101,8 @@ MonoBehaviour:
   startingHitPoints: 10
   maxHitPoints: 0
   characterCategory: 1
-  damageStrength: 2
+  damageStrength: 1
+  swordDamage: 1
 --- !u!50 &8187019353702586970
 Rigidbody2D:
   serializedVersion: 4
@@ -151,5 +152,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b4e8db41bbc8cf458348d33947b385c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dist: 1
+  dist: 2
   speed: 1
