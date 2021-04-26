@@ -80,3 +80,4 @@ Received Import Request.
 Start importing Assets/Prefabs/Background.prefab using Guid(19fab26618455644caaf0acece0f663e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fb70a7cff54f92b16d635bf5d0efa1b') in 0.058824 seconds
   Import took 0.062298 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
