@@ -3204,3 +3204,49 @@ Start importing Assets/BACKGROUND_FOREST/BACKGROUND_FOREST/Background-layers usi
   ERROR: Build asset version error: assets/background_forest/background_forest/background-layers.meta in SourceAssetDB has modification time of '2021-04-25T20:07:44.9929663Z' while content on disk has modification time of '0001-01-01T00:00:00Z'
   Import took 0.078953 seconds .
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 1.890497 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 8.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in 18.079 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.33 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1556 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.9 MB.
+System memory in use after: 70.0 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 1995.
+Total: 41.067300 ms (FindLiveObjects: 3.616300 ms CreateObjectMapping: 1.314900 ms MarkObjects: 34.739700 ms  DeleteObjects: 1.390700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008907 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.11 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.670 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.14 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1555 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 70.0 MB.
+System memory in use after: 70.1 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 1997.
+Total: 5.875200 ms (FindLiveObjects: 0.620500 ms CreateObjectMapping: 0.146000 ms MarkObjects: 4.983700 ms  DeleteObjects: 0.121600 ms)
+
