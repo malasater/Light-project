@@ -14,8 +14,9 @@ GameObject:
   - component: {fileID: 8187019353702586970}
   - component: {fileID: 8187019353702586971}
   - component: {fileID: 715941666}
+  - component: {fileID: 4530379755661445236}
   m_Layer: 0
-  m_Name: Evil Hexagon
+  m_Name: Evil Slime
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -154,3 +155,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dist: 1
   speed: 1
+--- !u!95 &4530379755661445236
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8187019353702586983}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 0e7de2d634e99d04e930cf4414c9be7a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
