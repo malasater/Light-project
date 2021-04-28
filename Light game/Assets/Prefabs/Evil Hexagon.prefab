@@ -30,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 8187019353702586983}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 12.6554, y: 2.9971, z: -2.2110214}
-  m_LocalScale: {x: 2.1309, y: 2.0129, z: 1}
+  m_LocalScale: {x: 15, y: 15, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -75,7 +75,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 2747690628134850419, guid: a9716c16a44a94eed9b5c90fbf4d9bdd, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 8579fbca14faeca44b717012366f6fb5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -102,7 +102,7 @@ MonoBehaviour:
   maxHitPoints: 0
   characterCategory: 1
   damageStrength: 1
-  swordDamage: 1
+  swordDamage: 3
 --- !u!50 &8187019353702586970
 Rigidbody2D:
   serializedVersion: 4
@@ -123,7 +123,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!58 &8187019353702586971
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -137,9 +137,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.032580774, y: -0.062427238}
   serializedVersion: 2
-  m_Radius: 0.49999997
+  m_Radius: 0.101999365
 --- !u!114 &715941666
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -152,5 +152,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b4e8db41bbc8cf458348d33947b385c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dist: 2
+  dist: 1
   speed: 1

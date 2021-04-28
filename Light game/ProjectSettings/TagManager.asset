@@ -43,6 +43,39 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Bg0
+    uniqueID: 2952122619
+    locked: 0
+  - name: Bg1
+    uniqueID: 3349848595
+    locked: 0
+  - name: Bg2
+    uniqueID: 2133106023
+    locked: 0
+  - name: Bg3
+    uniqueID: 2503621917
+    locked: 0
+  - name: Bg4
+    uniqueID: 3605930967
+    locked: 0
+  - name: Bg5
+    uniqueID: 2402582505
+    locked: 0
+  - name: Bg6
+    uniqueID: 1525993803
+    locked: 0
+  - name: Bg7
+    uniqueID: 3538468815
+    locked: 0
+  - name: Bg8
+    uniqueID: 3087292327
+    locked: 0
+  - name: Bg9
+    uniqueID: 2934321733
+    locked: 0
+  - name: Bg10
+    uniqueID: 1867649151
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
