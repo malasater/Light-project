@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Player : Character
 {
@@ -47,6 +48,12 @@ public class Player : Character
      }**/
     void OnTriggerEnter2D(Collider2D collision)
     {
+        if (collision.gameObject.CompareTag("floor"))
+        {
+            KillCharacter();
+        }
+
+
         if (collision.gameObject.CompareTag("Health Token"))
         {
             if (hitPoints < maxHitPoints)
@@ -99,6 +106,7 @@ public class Player : Character
     public override void KillCharacter()
     {
         base.KillCharacter();
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         //Destroy(healthBar.gameObject);
         //Destroy(inventory.gameObject);
     }

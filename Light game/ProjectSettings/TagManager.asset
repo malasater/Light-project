@@ -9,6 +9,7 @@ TagManager:
   - sword
   - Enemy
   - Health Token
+  - floor
   layers:
   - Default
   - TransparentFX

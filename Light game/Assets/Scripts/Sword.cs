@@ -5,19 +5,20 @@ using UnityEngine;
 public class Sword : MonoBehaviour
 {
     public Collider2D sword;
-    public SpriteRenderer swordsprite;
+    //public SpriteRenderer swordsprite;
     private bool rightflag;
 
     // Start is called before the first frame update
     void Start()
     {
-        swordsprite = gameObject.GetComponentInChildren<SpriteRenderer>();
-        swordsprite.enabled = false;
+       // swordsprite = gameObject.GetComponentInChildren<SpriteRenderer>();
+        //swordsprite.enabled = false;
         sword = gameObject.GetComponentInChildren<Collider2D>();
+        gameObject.SetActive(false);
         EventManager.StartListening("Lightdisable", swordOn);
         EventManager.StartListening("flipsword", flipSword);
         //EventManager.StartListening("flipswordleft", flipSwordLeft);
-        sword.enabled = false;
+        //sword.enabled = false;
         rightflag = true;
     }
 
@@ -57,14 +58,14 @@ public class Sword : MonoBehaviour
     }
     void swordOff()
     {
-        swordsprite.enabled = false;
+        gameObject.SetActive(false);
         EventManager.StartListening("Lightdisable", swordOn);
         EventManager.StopListening("Lightenable", swordOff);
 
     }
     void swordOn()
     {
-        swordsprite.enabled = true;
+        gameObject.SetActive(true);
         EventManager.StartListening("Lightenable", swordOff);
         EventManager.StopListening("Lightdisable", swordOn);
     }

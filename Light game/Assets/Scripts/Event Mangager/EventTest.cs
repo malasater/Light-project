@@ -29,14 +29,14 @@ public class EventTest : MonoBehaviour
     }
     void turnOff()
     {
-        gameObject.GetComponent<SpriteRenderer>().enabled = false;
+        gameObject.SetActive(false);
         EventManager.StartListening("Lightenable", turnOn);
         EventManager.StopListening("Lightdisable", turnOff);
 
     }
     void turnOn()
     {
-        gameObject.GetComponent<SpriteRenderer>().enabled = true;
+        gameObject.SetActive(true);
         EventManager.StartListening("Lightdisable", turnOff);
         EventManager.StopListening("Lightenable", turnOn);
     }
