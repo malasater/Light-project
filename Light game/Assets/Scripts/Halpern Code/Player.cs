@@ -52,7 +52,10 @@ public class Player : Character
         {
             KillCharacter();
         }
-
+        if (collision.gameObject.CompareTag("scenechange"))
+        {
+            SceneManager.LoadScene(collision.GetComponent<SceneChanger>().sceneName);
+        }
 
         if (collision.gameObject.CompareTag("Health Token"))
         {
