@@ -12061,6 +12061,10 @@ PrefabInstance:
       propertyPath: swordDamage
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 8187019353702586980, guid: 5fe907ac3db23fc41b0df476eb0b8d6e, type: 3}
+      propertyPath: maxHitPoints
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 8187019353702586981, guid: 5fe907ac3db23fc41b0df476eb0b8d6e, type: 3}
       propertyPath: m_RootOrder
       value: 8

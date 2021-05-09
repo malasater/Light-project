@@ -20,11 +20,14 @@ public class Characterfollower : MonoBehaviour
         leftoffset = transform.position - character.transform.position;
         rightoffset.Set(-(leftoffset.x), leftoffset.y, leftoffset.z);
         initDist = Vector3.Distance(transform.position, character.transform.position);
+        EventManager.StartListening("LunaDead", killLight);
     }
 
     // Update is called once per frame
     void Update()
+
     {
+        
         if (Vector3.Distance(transform.position, character.transform.position) > initDist)
         {
             speed = followspeed;
@@ -63,6 +66,11 @@ public class Characterfollower : MonoBehaviour
 
         //transform.position = character.transform.position + offset;
 
+    }
+    void killLight()
+    {
+        gameObject.SetActive(false);
+        EventManager.StopListening("LunaDead", killLight);
     }
 
    
