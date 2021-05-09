@@ -6,6 +6,7 @@ public class PlayerPlatformerController : PhysicsObject {
 
     public float maxSpeed = 7;
     public float jumpTakeOffSpeed = 7;
+    public Animator animator;
 
     private SpriteRenderer spriteRenderer;
     private SpriteRenderer children;
@@ -58,4 +59,13 @@ public class PlayerPlatformerController : PhysicsObject {
 
         targetVelocity = move * maxSpeed;
     }
+
+    /*
+    void Update()
+    {
+        Vector2 move = Vector2.zero;
+        move.x = Input.GetAxis("Horizontal");
+        animator.SetFloat("Speed", Mathf.Abs(move.x));
+    }
+    */
 }
