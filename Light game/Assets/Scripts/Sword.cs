@@ -5,20 +5,23 @@ using UnityEngine;
 public class Sword : MonoBehaviour
 {
     public Collider2D sword;
-    public SpriteRenderer swordsprite;
+    //public SpriteRenderer swordsprite;
     private bool rightflag;
+    private bool down;
 
     // Start is called before the first frame update
     void Start()
     {
-        swordsprite = gameObject.GetComponentInChildren<SpriteRenderer>();
-        swordsprite.enabled = false;
+       // swordsprite = gameObject.GetComponentInChildren<SpriteRenderer>();
+        //swordsprite.enabled = false;
         sword = gameObject.GetComponentInChildren<Collider2D>();
+        gameObject.SetActive(false);
         EventManager.StartListening("Lightdisable", swordOn);
         EventManager.StartListening("flipsword", flipSword);
         //EventManager.StartListening("flipswordleft", flipSwordLeft);
-        sword.enabled = false;
+        //sword.enabled = false;
         rightflag = true;
+        down = false;
     }
 
     // Update is called once per frame
@@ -28,6 +31,7 @@ public class Sword : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             sword.enabled = true;
+            down = true;
             //transform.Translate(0.5f, -0.9f, 0.0f);
             if (rightflag)
             {
@@ -43,6 +47,7 @@ public class Sword : MonoBehaviour
         if (Input.GetKeyUp(KeyCode.Space))
         {
             sword.enabled = false;
+            down = false;
             if (rightflag)
             {
                 transform.Rotate(0.0f, 0.0f, 60.0f);
@@ -57,14 +62,14 @@ public class Sword : MonoBehaviour
     }
     void swordOff()
     {
-        swordsprite.enabled = false;
+        gameObject.SetActive(false);
         EventManager.StartListening("Lightdisable", swordOn);
         EventManager.StopListening("Lightenable", swordOff);
 
     }
     void swordOn()
     {
-        swordsprite.enabled = true;
+        gameObject.SetActive(true);
         EventManager.StartListening("Lightenable", swordOff);
         EventManager.StopListening("Lightdisable", swordOn);
     }
@@ -72,16 +77,37 @@ public class Sword : MonoBehaviour
     {
         Vector3 temp = transform.localScale;
         temp.x = temp.x * -1.0f;
-        transform.localScale = temp;
-        rightflag = !rightflag;
+        if (down)
+        {
+            if (rightflag)
+            {
+                transform.Rotate(0.0f, 0.0f, 60.0f);
+            }
+            if (!rightflag)
+            {
+                transform.Rotate(0.0f, 0.0f, -60.0f);
+            }
+
+            transform.localScale = temp;
+            rightflag = !rightflag;
+            if (rightflag)
+            {
+                transform.Rotate(0.0f, 0.0f, -60.0f);
+            }
+            if (!rightflag)
+            {
+                transform.Rotate(0.0f, 0.0f, 60.0f);
+            }
+
+
+        }
+        else
+        {
+            transform.localScale = temp;
+            rightflag = !rightflag;
+        }
     }
-    void flipSwordLeft()
-    {
-        rightflag = false;
-        //transform.Translate(-1.1f, 0.0f, 0.0f);
-        transform.Rotate(0.0f, 0.0f, 60.0f);
-        
-    }
+
 
 
 }
