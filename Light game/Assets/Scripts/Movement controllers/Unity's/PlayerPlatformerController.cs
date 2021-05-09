@@ -6,18 +6,17 @@ public class PlayerPlatformerController : PhysicsObject {
 
     public float maxSpeed = 7;
     public float jumpTakeOffSpeed = 7;
-    public Animator animator;
-
+ 
     private SpriteRenderer spriteRenderer;
     private SpriteRenderer children;
-    //private Animator animator;
+    private Animator animator;
 
     // Use this for initialization
     void Awake () 
     {
         spriteRenderer = GetComponent<SpriteRenderer> (); 
         children = gameObject.GetComponentInChildren<SpriteRenderer>();
-        //animator = GetComponent<Animator> ();
+        animator = GetComponent<Animator> ();
     }
 
     protected override void ComputeVelocity()
@@ -55,8 +54,8 @@ public class PlayerPlatformerController : PhysicsObject {
         }
 
         //animator.SetBool ("grounded", grounded);
-        //animator.SetFloat ("velocityX", Mathf.Abs (velocity.x) / maxSpeed);
-
+        //animator.SetFloat ("velocityX", Mathf.Abs (velocity)x) / maxSpeed);
+        animator.SetFloat("speed", Mathf.Abs(move.x));
         targetVelocity = move * maxSpeed;
     }
 
