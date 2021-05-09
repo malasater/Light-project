@@ -10,6 +10,7 @@ TagManager:
   - Enemy
   - Health Token
   - floor
+  - scenechange
   layers:
   - Default
   - TransparentFX
