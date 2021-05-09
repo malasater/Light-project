@@ -108,6 +108,7 @@ public class Player : Character
 
     public override void KillCharacter()
     {
+        EventManager.TriggerEvent("LunaDead");
         base.KillCharacter();
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         //Destroy(healthBar.gameObject);
