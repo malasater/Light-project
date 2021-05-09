@@ -80,3 +80,389 @@ Received Import Request.
 Start importing Packages/com.unity.ads/package.json using Guid(dced8f6ea9f964e8e8e61574ea889d21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fb26b46c3af6dc102c2fc307b1d6ad0') in 0.038315 seconds
   Import took 0.043585 seconds .
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001820 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.89 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.705 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.67 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1557 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.6 MB.
+System memory in use after: 74.7 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 1998.
+Total: 2.276500 ms (FindLiveObjects: 0.248900 ms CreateObjectMapping: 0.067500 ms MarkObjects: 1.928000 ms  DeleteObjects: 0.030700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002488 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.766 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.67 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1556 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.8 MB.
+System memory in use after: 74.9 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 2000.
+Total: 1.906700 ms (FindLiveObjects: 0.239000 ms CreateObjectMapping: 0.036600 ms MarkObjects: 1.600100 ms  DeleteObjects: 0.029500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 404.506077 seconds.
+  path: Assets/Prefabs/Floor.prefab
+  artifactKey: Guid(bf955b91078540a448d10628cd24820e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Floor.prefab using Guid(bf955b91078540a448d10628cd24820e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e76374b98801e129abf0b156996694f1') in 0.034105 seconds
+  Import took 0.038661 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/Prefabs/Luna.prefab
+  artifactKey: Guid(748fd8c137ddda043bbddc6653622c2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Luna.prefab using Guid(748fd8c137ddda043bbddc6653622c2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31874eb6bb303fec15ce6a0e48f101d2') in 0.062521 seconds
+  Import took 0.066093 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002058 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.719 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.66 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1556 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 78.1 MB.
+System memory in use after: 78.2 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2009.
+Total: 2.459800 ms (FindLiveObjects: 0.245700 ms CreateObjectMapping: 0.068700 ms MarkObjects: 2.013800 ms  DeleteObjects: 0.130100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002641 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.709 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.77 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1557 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 78.2 MB.
+System memory in use after: 78.3 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 2012.
+Total: 1.764900 ms (FindLiveObjects: 0.216500 ms CreateObjectMapping: 0.068300 ms MarkObjects: 1.454700 ms  DeleteObjects: 0.023000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 265.875283 seconds.
+  path: Assets/Prefabs/Health Token.prefab
+  artifactKey: Guid(950fcf20497240d4294865958e27ef3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Health Token.prefab using Guid(950fcf20497240d4294865958e27ef3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e22fbe5548ac8009e2df835a274b937d') in 0.061607 seconds
+  Import took 0.064882 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.730874 seconds.
+  path: Assets/particle.mat
+  artifactKey: Guid(708490216fdd8d64993f99b56d977724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/particle.mat using Guid(708490216fdd8d64993f99b56d977724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13cf4012daf25d41b6096ab049b152d5') in 0.049682 seconds
+  Import took 0.054209 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.914144 seconds.
+  path: Assets/Scenes/Start.unity
+  artifactKey: Guid(1c2e3ea48c00dd84284ec84b1221224a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Start.unity using Guid(1c2e3ea48c00dd84284ec84b1221224a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b2752111edb5047ff0a1105e2de9951') in 0.007756 seconds
+  Import took 0.011807 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000607 seconds.
+  path: Assets/Scenes/Start.unity
+  artifactKey: Guid(1c2e3ea48c00dd84284ec84b1221224a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Start.unity using Guid(1c2e3ea48c00dd84284ec84b1221224a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b2752111edb5047ff0a1105e2de9951') in 0.002195 seconds
+  Import took 0.004892 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.024352 seconds.
+  path: Assets/Scenes/test.unity
+  artifactKey: Guid(b5fa2f6c4cf76874cbb579cc3c33ca02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/test.unity using Guid(b5fa2f6c4cf76874cbb579cc3c33ca02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78902a83711cfafb10a0915094414f69') in 0.007451 seconds
+  Import took 0.012198 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000861 seconds.
+  path: Assets/Scenes/test.unity
+  artifactKey: Guid(b5fa2f6c4cf76874cbb579cc3c33ca02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/test.unity using Guid(b5fa2f6c4cf76874cbb579cc3c33ca02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78902a83711cfafb10a0915094414f69') in 0.002557 seconds
+  Import took 0.005354 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.171122 seconds.
+  path: Assets/Scenes/main.unity
+  artifactKey: Guid(759227cb204483a4f83c88318c0533fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/main.unity using Guid(759227cb204483a4f83c88318c0533fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a42b8256ccd9660cf42e4198ad3eadef') in 0.007437 seconds
+  Import took 0.012820 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000901 seconds.
+  path: Assets/Scenes/main.unity
+  artifactKey: Guid(759227cb204483a4f83c88318c0533fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/main.unity using Guid(759227cb204483a4f83c88318c0533fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a42b8256ccd9660cf42e4198ad3eadef') in 0.002476 seconds
+  Import took 0.005023 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002041 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.682 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.71 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1557 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 78.7 MB.
+System memory in use after: 78.8 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 2048.
+Total: 2.081600 ms (FindLiveObjects: 0.249800 ms CreateObjectMapping: 0.068700 ms MarkObjects: 1.738400 ms  DeleteObjects: 0.022900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 425.027848 seconds.
+  path: Assets/Sprites/hearts-and-coins32x32.png
+  artifactKey: Guid(6353747692a98e14da2c34162c883eea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/hearts-and-coins32x32.png using Guid(6353747692a98e14da2c34162c883eea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '068cf6dbed55e02adbe40554f74a9edc') in 0.273378 seconds
+  Import took 0.276751 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002060 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.692 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.66 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1557 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 78.9 MB.
+System memory in use after: 79.0 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 2064.
+Total: 2.751000 ms (FindLiveObjects: 0.178300 ms CreateObjectMapping: 0.034400 ms MarkObjects: 2.514900 ms  DeleteObjects: 0.022200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 734.447967 seconds.
+  path: Assets/20 Evolving Weapons/evo_bundle1.png
+  artifactKey: Guid(e0dccd9298c081a4f9ff3229a13f3634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/20 Evolving Weapons/evo_bundle1.png using Guid(e0dccd9298c081a4f9ff3229a13f3634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a67274b06f01830dd9c84ce95eede5a') in 0.048728 seconds
+  Import took 0.052885 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/20 Evolving Weapons/evo_bundle11.png
+  artifactKey: Guid(20509ab6e9128cb4eb3fc5575793de04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/20 Evolving Weapons/evo_bundle11.png using Guid(20509ab6e9128cb4eb3fc5575793de04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cdb278e3aa67e03448a5483f47b23be') in 0.012727 seconds
+  Import took 0.015858 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/20 Evolving Weapons/evo_bundle14.png
+  artifactKey: Guid(2b59f46cccb0b4f48b59fcbe74f260f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/20 Evolving Weapons/evo_bundle14.png using Guid(2b59f46cccb0b4f48b59fcbe74f260f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3daa7c93b08b98c9dea68262c1be8d57') in 0.018131 seconds
+  Import took 0.021214 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/20 Evolving Weapons/evo_bundle7.png
+  artifactKey: Guid(3b0affec3f38d044298fb3b4201ec567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/20 Evolving Weapons/evo_bundle7.png using Guid(3b0affec3f38d044298fb3b4201ec567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d6b89f1794707215aa0a67fc94c4b65') in 0.015889 seconds
+  Import took 0.019407 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/20 Evolving Weapons/evo_bundle15.png
+  artifactKey: Guid(d495b95f5d71d3c4a960120ab0ab9706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/20 Evolving Weapons/evo_bundle15.png using Guid(d495b95f5d71d3c4a960120ab0ab9706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cb666b481d36feeafbd7a726be30250') in 0.016990 seconds
+  Import took 0.020599 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/20 Evolving Weapons/evo_bundle16.png
+  artifactKey: Guid(a8478c72c869e5c41a965da88f2de93b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/20 Evolving Weapons/evo_bundle16.png using Guid(a8478c72c869e5c41a965da88f2de93b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a308a377c69372061c2b0e9b203ed13') in 0.012708 seconds
+  Import took 0.015936 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/20 Evolving Weapons/evo_bundle2.png
+  artifactKey: Guid(9924b5cf93c4e51449264233ab0f028a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/20 Evolving Weapons/evo_bundle2.png using Guid(9924b5cf93c4e51449264233ab0f028a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ec928f6b9a513b0b9a6038340289f6b') in 0.013487 seconds
+  Import took 0.017468 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/20 Evolving Weapons/evo_bundle10.png
+  artifactKey: Guid(e8eb73474ecce21419a76f453a8a1c6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/20 Evolving Weapons/evo_bundle10.png using Guid(e8eb73474ecce21419a76f453a8a1c6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a27888e8077cad70e7886a828ebaf07c') in 0.014755 seconds
+  Import took 0.018456 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/20 Evolving Weapons/evo_bundle8.png
+  artifactKey: Guid(6f1000ab55568d5479fdd8bed530da80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/20 Evolving Weapons/evo_bundle8.png using Guid(6f1000ab55568d5479fdd8bed530da80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10d5e0fd71c50db17cf6b3ed8a8116c6') in 0.017215 seconds
+  Import took 0.020038 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/20 Evolving Weapons/evo_bundle13.png
+  artifactKey: Guid(e8f848f02803766409d41f33da7ce640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/20 Evolving Weapons/evo_bundle13.png using Guid(e8f848f02803766409d41f33da7ce640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a731ab561f9fe7694a582bc77c6832d') in 0.011836 seconds
+  Import took 0.015069 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/20 Evolving Weapons/evo_bundle4.png
+  artifactKey: Guid(746ff8127959f56409987cce7f198c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/20 Evolving Weapons/evo_bundle4.png using Guid(746ff8127959f56409987cce7f198c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e63599b09ca0a5675c8a131c0c97bc11') in 0.015914 seconds
+  Import took 0.019043 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/20 Evolving Weapons/evo_bundle17.png
+  artifactKey: Guid(efef022d56467c648a4a3b0fac5311e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/20 Evolving Weapons/evo_bundle17.png using Guid(efef022d56467c648a4a3b0fac5311e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff53667a63fd2049453c25f7a6c9aea2') in 0.014359 seconds
+  Import took 0.018526 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/20 Evolving Weapons/evo_bundle18.png
+  artifactKey: Guid(fac40a0c1c2567743abec794eb6bcd20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/20 Evolving Weapons/evo_bundle18.png using Guid(fac40a0c1c2567743abec794eb6bcd20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84cb260a1fd4cd2fbf3384653c382e84') in 0.013176 seconds
+  Import took 0.016371 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/20 Evolving Weapons/evo_bundle6.png
+  artifactKey: Guid(97238d6e201e82d4dac0b74a8f8d05ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/20 Evolving Weapons/evo_bundle6.png using Guid(97238d6e201e82d4dac0b74a8f8d05ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc066a79c706f650e7c74c51385ab096') in 0.014241 seconds
+  Import took 0.017778 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/20 Evolving Weapons/evo_bundle20.png
+  artifactKey: Guid(b08b8fb90dd87984d8f4ea524f1876ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/20 Evolving Weapons/evo_bundle20.png using Guid(b08b8fb90dd87984d8f4ea524f1876ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '936cc78142b2b53b036806daf76363b8') in 0.016846 seconds
+  Import took 0.020482 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/20 Evolving Weapons/evo_bundle19.png
+  artifactKey: Guid(ba025bd397a5bab469ef724220a7ae19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/20 Evolving Weapons/evo_bundle19.png using Guid(ba025bd397a5bab469ef724220a7ae19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4f9a1432614e77de9c437ef90a7a786') in 0.013543 seconds
+  Import took 0.017066 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/20 Evolving Weapons/evo_bundle9.png
+  artifactKey: Guid(cf931087bee5aaa47a91221f823055a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/20 Evolving Weapons/evo_bundle9.png using Guid(cf931087bee5aaa47a91221f823055a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c4ac2cdc40a08473983b128d5ada2bd') in 0.013084 seconds
+  Import took 0.017073 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/20 Evolving Weapons/evo_bundle12.png
+  artifactKey: Guid(ee84fb1991a7c854ea7e1d8f3dab4c64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/20 Evolving Weapons/evo_bundle12.png using Guid(ee84fb1991a7c854ea7e1d8f3dab4c64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45a482df260dc0f9fed1ebe90787bd7e') in 0.012436 seconds
+  Import took 0.015846 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/20 Evolving Weapons/evo_bundle3.png
+  artifactKey: Guid(dabd267d331a999459a380be8b483f59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/20 Evolving Weapons/evo_bundle3.png using Guid(dabd267d331a999459a380be8b483f59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b952f83e8eaa0a41d8a68d5ce48b4d5d') in 0.014063 seconds
+  Import took 0.018725 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/20 Evolving Weapons/evo_bundle5.png
+  artifactKey: Guid(23b0fac7728c2e848a48bd82f80c0fc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/20 Evolving Weapons/evo_bundle5.png using Guid(23b0fac7728c2e848a48bd82f80c0fc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46ffaa68e6f454da78121a1e376a8ff3') in 0.013130 seconds
+  Import took 0.016127 seconds .
+
