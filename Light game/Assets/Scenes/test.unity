@@ -11816,6 +11816,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SceneChengeTrigger
       objectReference: {fileID: 0}
+    - target: {fileID: 815781671506054719, guid: 47d35ec3b0fef804893e252cb75c9222, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 47d35ec3b0fef804893e252cb75c9222, type: 3}
 --- !u!1001 &1444685344186585308

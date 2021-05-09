@@ -62,6 +62,18 @@ public class Sword : MonoBehaviour
     }
     void swordOff()
     {
+        if (down)
+        {
+            if (rightflag)
+            {
+                transform.Rotate(0.0f, 0.0f, 60.0f);
+            }
+            if (!rightflag)
+            {
+                transform.Rotate(0.0f, 0.0f, -60.0f);
+            }
+            down = !down;
+        }
         gameObject.SetActive(false);
         EventManager.StartListening("Lightdisable", swordOn);
         EventManager.StopListening("Lightenable", swordOff);
