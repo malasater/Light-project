@@ -14,7 +14,8 @@ GameObject:
   - component: {fileID: 8187019353702586970}
   - component: {fileID: 8187019353702586971}
   - component: {fileID: 715941666}
-  - component: {fileID: 4530379755661445236}
+  - component: {fileID: 1249846821}
+  - component: {fileID: 7650931544205518036}
   m_Layer: 0
   m_Name: Evil Slime
   m_TagString: Enemy
@@ -132,7 +133,7 @@ CircleCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8187019353702586983}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -153,9 +154,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b4e8db41bbc8cf458348d33947b385c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dist: 1
+  dist: 2
   speed: 1
---- !u!95 &4530379755661445236
+--- !u!95 &1249846821
 Animator:
   serializedVersion: 3
   m_ObjectHideFlags: 0
@@ -174,3 +175,29 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!61 &7650931544205518036
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8187019353702586983}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.0023312569, y: -0.06688887}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.32, y: 0.25}
+    newSize: {x: 1, y: 0.8828125}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.26878154, y: 0.11622226}
+  m_EdgeRadius: 0
