@@ -314,3 +314,151 @@ System memory in use after: 79.7 MB.
 Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 2053.
 Total: 2.308400 ms (FindLiveObjects: 0.199100 ms CreateObjectMapping: 0.035900 ms MarkObjects: 2.046100 ms  DeleteObjects: 0.026200 ms)
 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 7.46 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 32 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 48.4 MB.
+System memory in use after: 48.5 MB.
+
+Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 2053.
+Total: 19.461100 ms (FindLiveObjects: 0.570300 ms CreateObjectMapping: 0.093200 ms MarkObjects: 18.763700 ms  DeleteObjects: 0.029200 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 6.94 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 32 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 48.5 MB.
+System memory in use after: 48.6 MB.
+
+Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 2053.
+Total: 2.845300 ms (FindLiveObjects: 0.308700 ms CreateObjectMapping: 0.103200 ms MarkObjects: 2.407200 ms  DeleteObjects: 0.024400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005260 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.791 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.77 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1591 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 80.1 MB.
+System memory in use after: 80.2 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 2055.
+Total: 2.059400 ms (FindLiveObjects: 0.245000 ms CreateObjectMapping: 0.070400 ms MarkObjects: 1.719600 ms  DeleteObjects: 0.022700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 30868.687343 seconds.
+  path: Assets/Scenes/first_level.unity
+  artifactKey: Guid(fd17ad2f395d34948af5a012e23879f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/first_level.unity using Guid(fd17ad2f395d34948af5a012e23879f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7a0f184587cbac7574a09e5fe552793') in 0.104024 seconds
+  Import took 0.158447 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 97.355194 seconds.
+  path: Assets/Tile Sets/Pixel Art Forest/Pixel Art Forest/PNG/grass.png
+  artifactKey: Guid(e1ad6b93d9380c44485b9a610ec00916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Sets/Pixel Art Forest/Pixel Art Forest/PNG/grass.png using Guid(e1ad6b93d9380c44485b9a610ec00916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2b1a2aed698766dae092320bf45bbb1') in 0.055739 seconds
+  Import took 0.059184 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.505755 seconds.
+  path: Assets/Tile Sets/Pixel Art Forest/Pixel Art Forest/PNG/grass.png
+  artifactKey: Guid(e1ad6b93d9380c44485b9a610ec00916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Sets/Pixel Art Forest/Pixel Art Forest/PNG/grass.png using Guid(e1ad6b93d9380c44485b9a610ec00916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '577ea930a38e6002c18675d64c57dd6c') in 0.087233 seconds
+  Import took 0.091406 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.413019 seconds.
+  path: Assets/Tile Sets/Pixel Art Forest/Pixel Art Forest/PNG/bush tree (old).png
+  artifactKey: Guid(0b681a7a996fd914e8a5f94ac5f517c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Sets/Pixel Art Forest/Pixel Art Forest/PNG/bush tree (old).png using Guid(0b681a7a996fd914e8a5f94ac5f517c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '047412c99efb14baf8ae768ceced527b') in 0.016220 seconds
+  Import took 0.019777 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.944332 seconds.
+  path: Assets/Tile Sets/Pixel Art Forest/Pixel Art Forest/PNG/bush tree (old).png
+  artifactKey: Guid(0b681a7a996fd914e8a5f94ac5f517c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Sets/Pixel Art Forest/Pixel Art Forest/PNG/bush tree (old).png using Guid(0b681a7a996fd914e8a5f94ac5f517c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '382582d7a7a4b88941be27b54e7be769') in 0.059195 seconds
+  Import took 0.063351 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005053 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.752 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.75 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1591 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 80.3 MB.
+System memory in use after: 80.4 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 2100.
+Total: 1.773900 ms (FindLiveObjects: 0.188700 ms CreateObjectMapping: 0.034900 ms MarkObjects: 1.517200 ms  DeleteObjects: 0.031800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006064 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.733 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.82 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1591 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 80.5 MB.
+System memory in use after: 80.6 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 2102.
+Total: 2.538500 ms (FindLiveObjects: 0.246300 ms CreateObjectMapping: 0.077500 ms MarkObjects: 2.189600 ms  DeleteObjects: 0.023500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1380.102877 seconds.
+  path: Assets/Tile Sets/Pixel Art Forest/Pixel Art Forest/PNG/Build Your Tree.png
+  artifactKey: Guid(45933ca61d515884e9b8eed59807b89f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Sets/Pixel Art Forest/Pixel Art Forest/PNG/Build Your Tree.png using Guid(45933ca61d515884e9b8eed59807b89f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35299d7f8efb986dddcc251cc5f6ed8c') in 0.041473 seconds
+  Import took 0.044670 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.449564 seconds.
+  path: Assets/Tile Sets/Pixel Art Forest/Pixel Art Forest/PNG/Build Your Tree.png
+  artifactKey: Guid(45933ca61d515884e9b8eed59807b89f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Sets/Pixel Art Forest/Pixel Art Forest/PNG/Build Your Tree.png using Guid(45933ca61d515884e9b8eed59807b89f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bf36521566592a212a4eddcb8010aa6') in 0.170392 seconds
+  Import took 0.173668 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
